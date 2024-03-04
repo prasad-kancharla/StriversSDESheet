@@ -20,7 +20,7 @@ public class SetZeroesBetter {
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                if (rows[i] == 1 || columns[i] == 1) {
+                if (rows[i] == 1 || columns[j] == 1) {
                     matrix[i][j] = 0;
                 }
             }
