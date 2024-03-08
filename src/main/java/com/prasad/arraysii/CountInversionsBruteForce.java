@@ -1,6 +1,6 @@
 package com.prasad.arraysii;
 
-public class GetInversionsBruteForce {
+public class CountInversionsBruteForce {
     public static long getInversions(long arr[], int n) {
         long count = 0;
         for (int i = 0; i < n; i++) {

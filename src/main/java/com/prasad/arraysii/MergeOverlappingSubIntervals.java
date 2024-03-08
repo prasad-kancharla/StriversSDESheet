@@ -36,7 +36,6 @@ public class MergeOverlappingSubIntervals {
         }
         mergedIntervals.add(interval);
         return mergedIntervals;
-
     }
 
 }
