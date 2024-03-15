@@ -2,7 +2,7 @@ package com.prasad.arraysiv;
 
 import java.util.* ;
 
-public class LargestSubArrayWithKSumBruteForce {
+public class LongestSubArrayWithKSumBruteForce {
 
 	public static void main(String[] args) {
 		List<Integer> list = Arrays.asList(56, 0, 97, 0, 98, 0, -83 );
