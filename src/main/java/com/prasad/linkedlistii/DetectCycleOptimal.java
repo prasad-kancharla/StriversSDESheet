@@ -5,7 +5,7 @@ public class DetectCycleOptimal {
         ListNode slow = head;
         ListNode fast = head;
 
-        while (slow != null && fast.next != null) {
+        while (slow != null && fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
             if (fast == slow) return true;
