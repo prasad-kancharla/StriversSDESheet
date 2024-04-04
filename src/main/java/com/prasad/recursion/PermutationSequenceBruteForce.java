@@ -1,4 +1,4 @@
-package com.prasad.recursionandbacktracking;
+package com.prasad.recursion;
 
 import java.util.ArrayList;
 import java.util.Collections;
