@@ -1,6 +1,6 @@
 package com.prasad.binarysearch;
 
-public class SingleElementInSortedArray {
+public class SingleElementInSortedArrayLinear {
 
     public int singleNonDuplicate(int[] nums) {
         int ans = 0;
