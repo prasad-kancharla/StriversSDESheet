@@ -1,8 +1,8 @@
 package com.prasad.binarysearch;
 
 import java.util.ArrayList;
-
-public class Solution {
+// https://www.youtube.com/watch?v=2JSQIhPcHQg
+public class AllocateBooks {
 
     public static int findPages(ArrayList<Integer> arr, int n, int m) {
         if (n < m) {
