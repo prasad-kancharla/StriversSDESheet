@@ -1,6 +1,6 @@
 package com.prasad.strings2;
 
-class TwoFunction {
+class ZFunction {
 
     public int strStr(String haystack, String needle) {
         int n = haystack.length();
