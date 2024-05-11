@@ -35,7 +35,6 @@ public class LeftView {
 
     class TreeNode<T> {
 
-        public:
         T data;
         TreeNode<T> left;
         TreeNode<T> right;
