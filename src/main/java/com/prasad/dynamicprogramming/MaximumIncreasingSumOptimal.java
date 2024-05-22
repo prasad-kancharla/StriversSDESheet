@@ -1,10 +1,10 @@
 package com.prasad.dynamicprogramming;
 
-class MaximunIncreasingSumOptimal {
+class MaximumIncreasingSumOptimal {
 
 	public static void main(String[] args) {
 		int[] arr = {1, 101, 2, 3, 100};
-		System.out.println(new MaximunIncreasingSumOptimal().maxSumIS(arr, 5));
+		System.out.println(new MaximumIncreasingSumOptimal().maxSumIS(arr, 5));
 	}
 
 	static int[][] dp;
