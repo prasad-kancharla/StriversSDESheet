@@ -2,11 +2,11 @@ package com.prasad.companies.amazon;
 
 import java.util.Arrays;
 
-class GameOfLife {
+class GameOfLifeWithExtraSpace {
 
     public static void main(String[] args) {
         int[][] board = {{0, 1, 0}, {0, 0, 1}, {1, 1, 1}, {0, 0, 0}};
-        new GameOfLife().gameOfLife(board);
+        new GameOfLifeWithExtraSpace().gameOfLife(board);
         for (int i = 0; i < 4; i++) {
             System.out.println(Arrays.toString(board[i]));
         }
