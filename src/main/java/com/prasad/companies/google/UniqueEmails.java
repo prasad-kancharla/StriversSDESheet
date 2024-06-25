@@ -2,6 +2,7 @@ package com.prasad.companies.google;
 
 import java.util.HashSet;
 
+// https://leetcode.com/problems/unique-email-addresses/description/
 class UniqueEmails {
 
     public static void main(String[] args) {
