@@ -25,13 +25,13 @@ public class UnionSet {
     public void union(int x, int y) {
         int rootX = findRoot(x);
         int rootY = findRoot(y);
-        if (rootX != rootY) { // union by rank 
+        if (rootX != rootY) { // union by rank
             if (rank[rootX] > rank[rootY]) {
-                rank[rootY] = rootX;
+                parent[rootY] = rootX;
             } else if (rank[rootY] > rank[rootX]) {
-                rank[rootX] = rootY;
+                parent[rootX] = rootY;
             } else {
-                rank[rootY] = rootX;
+                parent[rootY] = rootX;
                 rank[rootX]++;
             }
         }
