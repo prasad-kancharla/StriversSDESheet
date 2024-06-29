@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
-class CountUnreachablePairOfNodesBruteForce {
+class CountUnreachablePairsBruteForce {
 
     int[] visited;
 
