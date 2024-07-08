@@ -1,9 +1,12 @@
 package com.prasad.arrays;
 
+// https://leetcode.com/problems/next-permutation/description/
+// https://www.youtube.com/watch?v=JDOXKqF60RQ
 class NextPermutation {
+
     public void nextPermutation(int[] nums) {
-        int n  = nums.length;
-        int index = - 1;
+        int n = nums.length;
+        int index = -1;
         for (int i = n - 2; i >= 0; i--) {
             if (nums[i] < nums[i + 1]) {
                 index = i;
